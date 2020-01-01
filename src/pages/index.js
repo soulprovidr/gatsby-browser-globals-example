@@ -5,14 +5,16 @@ import Layout from "../components/layout"
 import Image from "../components/image"
 import SEO from "../components/seo"
 
-console.log(_.forEach([1, 2, 3], console.log));
-
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h1>Hi people</h1>
     <p>Welcome to your new Gatsby site.</p>
     <p>Now go build something great.</p>
+
+    {/* Use lodash without importing it */}
+    {_.map([1, 2, 3], num => num)}
+
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
       <Image />
     </div>
