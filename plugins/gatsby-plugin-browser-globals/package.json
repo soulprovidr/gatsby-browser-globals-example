@@ -1,25 +1,3 @@
 {
-  "name": "gatsby-plugin-browser-globals",
-  "version": "1.0.0",
-  "description": "Define browser globals in your Gatsby app.",
-  "main": "gatsby-node.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/soulprovidr/gatsby-plugin-browser-globals.git"
-  },
-  "keywords": [
-    "gatsby",
-    "plugin",
-    "browser",
-    "globals"
-  ],
-  "author": "Shola Anozie",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/soulprovidr/gatsby-plugin-browser-globals/issues"
-  },
-  "homepage": "https://github.com/soulprovidr/gatsby-plugin-browser-globals#readme"
+  "main": "gatsby-node.js"
 }
